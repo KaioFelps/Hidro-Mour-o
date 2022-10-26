@@ -1,5 +1,5 @@
 export function Home() {
     return (
-        <h1>Hello World</h1>
+        <h1>Projeto de conscientização sobre o assoreamento dos rios</h1>
     )
 }
