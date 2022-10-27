@@ -84,7 +84,7 @@ export const MenuButton = styled.button`
 
 export const MobileNavigation = styled.nav`
     width: 100%;
-    height: 100%;
+    height: 100vh;
     position: fixed;
     top: 0;
     left: 0;
@@ -156,13 +156,18 @@ export const MobileNavigation = styled.nav`
         }
     }
 
-    transition: inset .2s;
+    transition: all .2s;
 
+    z-index: 999;
     display: none;
     top: -100vw;
+    opacity: 0;
+    pointer-events: none;
 
     &.active {
         top: 0;
+        opacity: 1;
+        pointer-events: auto;
     }
 
     @media (max-width: 768px) {

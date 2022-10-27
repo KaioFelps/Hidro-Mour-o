@@ -1,6 +1,10 @@
 import { createGlobalStyle } from "styled-components";
 
 export const GlobalStyle = createGlobalStyle`
+    html {
+        scroll-behavior: smooth;
+    }
+
     * {
         margin: 0;
         padding: 0;
@@ -9,10 +13,10 @@ export const GlobalStyle = createGlobalStyle`
     }
 
     body {
-        height: 100vw;
-        background: ${p => p.theme["background"]} url("../../../public/bg-lights.svg") top center no-repeat;
-        backdrop-filter: blur(300px);
+        min-height: 100vh;
+        background: ${p => p.theme["background"]};
         color: ${p => p.theme["gray-300"]};
+        overflow-x: hidden;
     }
 
     body, input, textarea, button {
@@ -29,9 +33,11 @@ export const GlobalStyle = createGlobalStyle`
     h1 {
         font-size: 2.5rem;
         color: ${p => p.theme["white"]};
+        font-weight: 700;
     }
 
     h2 {
         font-size: 1.5rem;
+        font-weight: 400;
     }
 `
