@@ -19,10 +19,10 @@ export const ButtonContainer = styled.button`
 
     position: fixed;
     right: 12px;
-    bottom: 64px;
+    /* bottom: 64px; */
 
     cursor: pointer;
-    transition: all .2s;
+    transition: filter .2s, bottom .5s;
 
     &:hover {
         filter: brightness(0.8);
@@ -32,10 +32,21 @@ export const ButtonContainer = styled.button`
         filter: brightness(1.1);
     }
 
+    &[data-hidden="true"] {
+        bottom: -10vmax;
+    }
+
+    &[data-hidden="false"] {
+        bottom: 64px;
+    }
+
     @media (max-width: 768px) {
         width: calc(100% - 10px);
-        bottom: 5px;
         right: 5px;
         padding: 0.5rem;
+
+        &[data-hidden="false"] {
+            bottom: 5px;
+        }
     }
 `
