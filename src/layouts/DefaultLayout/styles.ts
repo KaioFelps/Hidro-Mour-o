@@ -3,7 +3,7 @@ import styled from "styled-components";
 export const LayoutContainer = styled.div`
     width: 100%;
     padding: 0 20px;
-    height: 100vw;
+    height: 100vh;
 
     display: flex;
     flex-direction: column;
@@ -22,7 +22,7 @@ export const BackgroundLights = styled.div`
     transform: translatex(-50%);
     pointer-events: none;
 
-    background: url("../../../public/background-lights.jpg") no-repeat;
+    background: url("/background-lights.jpg") no-repeat;
     z-index: -1;
 
     @media (max-width: 768px) {

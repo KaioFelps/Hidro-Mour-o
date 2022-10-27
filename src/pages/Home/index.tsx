@@ -19,12 +19,12 @@ export function Home() {
             <InformationsContainer>
                 <ImagesContainer>
                     <figure>
-                        <p><img src="../../public/rio-assoreado-reprodução.png" alt="Imagem de um rio assoreado com uma arvore ao lado e uma ilhota ao fundo." /></p>
+                        <p><img src="/rio-assoreado-reprodução.png" alt="Imagem de um rio assoreado com uma arvore ao lado e uma ilhota ao fundo." /></p>
                         <figcaption>Imagem de reprodução. Retirado de Todo Estudo.</figcaption>
                     </figure>
 
                     <figure>
-                        <p><img src="../../public/explicacao-rio-assoreado.png" alt="Imagem de um rio assoreado com uma arvore ao lado e uma ilhota ao fundo." /></p>
+                        <p><img src="/explicacao-rio-assoreado.png" alt="Imagem de um rio assoreado com uma arvore ao lado e uma ilhota ao fundo." /></p>
                         <figcaption>Imagem explicando o assoreamento. Por M&F Ambiental e Obras.</figcaption>
                     </figure>
                 </ImagesContainer>

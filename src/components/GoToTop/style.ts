@@ -4,7 +4,8 @@ export const ButtonContainer = styled.button`
     padding: 1rem;
     border-radius: 999px;
     border: 2px solid ${p => p.theme["blue-500"]};
-    background: ${p => p.theme["gray-900"]};
+    background: #222222a0;
+    backdrop-filter: blur(50px);
     line-height: 0;
 
     box-shadow: 0px 62px 25px rgba(0, 0, 0, 0.02),
