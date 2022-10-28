@@ -112,6 +112,9 @@ export const MobileNavigation = styled.nav`
         position: relative;
         overflow: hidden;
 
+        display: flex;
+        align-items: center;
+
         &::before {
             content: "";
             position: absolute;
