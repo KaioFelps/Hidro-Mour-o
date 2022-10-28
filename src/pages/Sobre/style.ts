@@ -6,71 +6,12 @@ const floatingAnchorAnimation = keyframes`
 `
 
 
-export const ImagesRowContainer = styled.div`
-    width: calc(100vw - 10px);
-    padding: 64px 20px;
-
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    gap: 16px;
-
-    background: ${p => p.theme["gray-900"]};
-    border-width: 2px 0;
-    border-style: solid;
-    border-color: ${p => p.theme["blue-500"]};
-
-    figure {
-        position: relative;
-    }
-
-    img {
-        border-radius: 4px;
-        width: 100%;
-        height: 400px;
-
-        object-fit: cover;
-        object-position: center;
-    }
-
-    figcaption {
-        position: absolute;
-        bottom: -50px;
-        margin: 12px;
-        padding: 12px;
-        background: #00000099;
-        backdrop-filter: blur(50px);
-
-        font-size: 1rem;
-        color: ${p => p.theme["white"]};
-        font-family: "Inter", sans-serif;
-
-        transition: bottom .2s, opacity .2s;
-        opacity: 0;
-        pointer-events: none;
-    }
-
-    figure:has(img:hover) > figcaption {
-        bottom: 0;
-        pointer-events: auto;
-        opacity: 1;
-    }
-
-    @media (max-width: 1120px) {
-        grid-template-columns: repeat(2, 1fr);
-    }
-
-    @media (max-width: 412px) {
-        grid-template-columns: 1fr;
-    }
-`
 
 export const ParagraphContainer = styled.div`
     width: 100%;
-    max-width: 960px;
-    margin: 0 auto;
 
     p {
-        color: ${p => p.theme["white"]};
+        color: ${p => p.theme["gray-300"]};
         font-family: "Inter", sans-serif;
         font-size: 1rem;
         font-weight: 400;
@@ -96,6 +37,31 @@ export const Title = styled.div`
 
     h2 {
         margin-top: 1.5rem;
+    }
+`
+
+export const AboutUsContainer = styled.section`
+    width: 100%;
+    max-width: 1120px;
+
+    display: grid;
+    grid-template-columns: min-content 1fr;
+    gap: 32px;
+
+    img {
+        width: 350px;
+        padding: 12px;
+
+        background: ${p => p.theme["white"]};
+        border-radius: 12px;
+    }
+
+    @media (max-width: 768px) {
+        grid-template-columns: 1fr;
+
+        img {
+            width: 100%;
+        }
     }
 `
 

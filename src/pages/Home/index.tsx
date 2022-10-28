@@ -40,7 +40,7 @@ export function Home() {
                         </p>
                     </StyledParagraphContainer>
 
-                    <LinkButton isBlank={false} hasIcon={true} icon="arrowUp">Ver um caso real</LinkButton>
+                    <LinkButton isBlank={false} hasIcon={true} link="/campo-mourao" icon="arrowUp">Ver um caso real</LinkButton>
                 </AsideContainer>
             </InformationsContainer>
 

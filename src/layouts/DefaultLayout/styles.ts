@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import { Footer } from "../../components/Footer";
 
 export const LayoutContainer = styled.div`
     width: 100%;
@@ -48,4 +49,9 @@ export const BackgroundWrapper = styled.div`
     height: 1400px;
 
     pointer-events: none;
+
+    @media (max-width:412px) {
+        height: 600px;
+        overflow: hidden;
+    }
 `

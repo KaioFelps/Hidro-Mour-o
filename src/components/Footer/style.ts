@@ -44,7 +44,7 @@ export const FooterContent = styled.div`
         font-family: "Roboto", sans-serif;
 
         &:hover {
-            color: ${p => p.theme["blue-500"]};
+            color: ${p => p.theme["blue-300"]};
             transition: color .2s;
         }
     }

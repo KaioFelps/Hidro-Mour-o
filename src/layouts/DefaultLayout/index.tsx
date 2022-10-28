@@ -7,7 +7,7 @@ import { GoToTop } from "../../components/GoToTop";
 export function DefaultLayout() {
     return (
         <>
-            <BackgroundWrapper>
+            <BackgroundWrapper id="bgLights">
                 <BackgroundLights></BackgroundLights>
             </BackgroundWrapper>
             <LayoutContainer>

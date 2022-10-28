@@ -160,7 +160,7 @@ export const MobileNavigation = styled.nav`
 
     z-index: 999;
     display: none;
-    top: -100vw;
+    top: -100vh;
     opacity: 0;
     pointer-events: none;
 

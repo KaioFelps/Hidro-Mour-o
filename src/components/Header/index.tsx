@@ -12,7 +12,7 @@ export function Header() {
                 <ul>
                     <li><NavLink title="início" aria-label="ir para a homepage" to="/" end>Início</NavLink></li>
                     <li><NavLink title="campo mourão" aria-label="ver a situação de campo mourão" to="/campo-mourao">Campo Mourão</NavLink></li>
-                    <li><NavLink title="sobre" aria-label="ir para a página sobre os autores" to="/about">Sobre nós</NavLink></li>
+                    <li><NavLink title="sobre" aria-label="ir para a página sobre os autores" to="/sobre">Sobre nós</NavLink></li>
                 </ul>
             </nav>
 
@@ -21,9 +21,9 @@ export function Header() {
             <MobileNavigation id="mobile-nav">
                 <button onClick={closeMenu}><X size={32} weight="fill" /></button>
 
-                <NavLink title="início" aria-label="ir para a homepage" to="/" end>Início</NavLink>
-                <NavLink title="campo mourão" aria-label="ver a situação de campo mourão" to="/campo-mourao">Campo Mourão</NavLink>
-                <NavLink title="sobre" aria-label="ir para a página sobre os autores" to="/about">Sobre nós</NavLink>
+                <NavLink onClick={closeMenu} title="início" aria-label="ir para a homepage" to="/" end>Início</NavLink>
+                <NavLink onClick={closeMenu} title="campo mourão" aria-label="ver a situação de campo mourão" to="/campo-mourao">Campo Mourão</NavLink>
+                <NavLink onClick={closeMenu} title="sobre" aria-label="ir para a página sobre os autores" to="/sobre">Sobre nós</NavLink>
             </MobileNavigation>
         </HeaderContainer>
     )

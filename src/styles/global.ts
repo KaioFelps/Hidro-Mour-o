@@ -1,8 +1,27 @@
-import { createGlobalStyle } from "styled-components";
+import { createGlobalStyle, css } from "styled-components";
 
 export const GlobalStyle = createGlobalStyle`
     html {
         scroll-behavior: smooth;
+
+        &::-webkit-scrollbar-thumb {
+            background: ${p => p.theme["blue-300"]};
+            border-radius: 999px;
+            border: 1px solid ${p => p.theme["black"]};
+        }
+
+        &::-webkit-scrollbar {
+            background: ${p => p.theme["black"]};
+            width: 10px;
+        }
+
+        &::-webkit-scrollbar-button {
+            width: 5px;
+            height: 10px;
+            margin: auto;
+            border-radius: 999px;
+            background: ${p => p.theme["gray-900"]};
+        }
     }
 
     * {

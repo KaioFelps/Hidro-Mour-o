@@ -219,7 +219,7 @@ export const ExplanationContent = styled.div`
 
 export const ExplanationContainer = styled.section`
     /* width: 100%; */
-    width: 100vw;
+    width: calc(100vw - 10px);
     padding: 64px 20px;
 
     border-width: 2px 0;
