@@ -1,7 +1,7 @@
 import { createGlobalStyle, css } from "styled-components";
 
 export const GlobalStyle = createGlobalStyle`
-    html {
+    html, * {
         scroll-behavior: smooth;
 
         &::-webkit-scrollbar-thumb {
@@ -16,10 +16,11 @@ export const GlobalStyle = createGlobalStyle`
         }
 
         &::-webkit-scrollbar-button {
-            width: 5px;
-            height: 10px;
+            width: 4px;
+            height: 12px;
             margin: auto;
             border-radius: 999px;
+            border: 1px solid #ffffff55;
             background: ${p => p.theme["gray-900"]};
         }
     }

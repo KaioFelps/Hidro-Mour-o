@@ -31,12 +31,16 @@ export function Header() {
 
 function openMenu() {
     const mobileNav = document.querySelector("#mobile-nav")
-
+    const body = document.querySelector("body")
+    
     mobileNav!.classList.add("active")
+    body!.style.overflow="hidden"
 }
 
 function closeMenu() {
     const mobileNav = document.querySelector("#mobile-nav")
+    const body = document.querySelector("body")
 
     mobileNav!.classList.remove("active")
+    body!.style.overflow="auto"
 }

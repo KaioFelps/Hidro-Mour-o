@@ -28,6 +28,8 @@ export const ImageContainer = styled.div`
         width: 100vw;
         left: 50%;
         transform: translateX(-50%);
+
+        opacity: 0.1;
     }
 `
 

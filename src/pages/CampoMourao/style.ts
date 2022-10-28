@@ -51,7 +51,6 @@ export const ImagesRowContainer = styled.div`
 
     figure:has(img:hover) > figcaption {
         bottom: 0;
-        pointer-events: auto;
         opacity: 1;
     }
 
@@ -84,6 +83,7 @@ export const ParagraphContainer = styled.div`
 export const HeaderImg = styled.img`
     width: calc(100vw - 10px);
     height: 60vh;
+    margin-top: 64px;
 
     object-fit: cover;
     object-position: center 55%;

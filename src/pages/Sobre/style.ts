@@ -105,7 +105,7 @@ export const PageContainer = styled.main`
     width: 100%;
     max-width: 1120px;
     margin: 0 auto;
-    gap: 72px;
+    gap: 136px;
 
     display: flex;
     flex-direction: column;

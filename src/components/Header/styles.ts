@@ -96,6 +96,8 @@ export const MobileNavigation = styled.nav`
     gap: 0.25rem;
     padding: 2rem;
 
+    overflow-y: scroll;
+
     a {
         width: 100%;
         text-decoration: none;
