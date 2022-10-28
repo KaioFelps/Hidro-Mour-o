@@ -6,7 +6,7 @@ import { List, X } from "phosphor-react"
 export function Header() {
     return (
         <HeaderContainer>
-            <img src={logo} />
+            <img src={logo} alt="Hidro Mourão com uma gota de água substituíndo a letra ã" />
 
             <nav>
                 <ul>
@@ -16,10 +16,10 @@ export function Header() {
                 </ul>
             </nav>
 
-            <MenuButton onClick={openMenu}><List size={32} weight="fill" /></MenuButton>
+            <MenuButton onClick={openMenu} title="Abrir menu de navegação"><List size={32} weight="fill" /></MenuButton>
 
             <MobileNavigation id="mobile-nav">
-                <button onClick={closeMenu}><X size={32} weight="fill" /></button>
+                <button onClick={closeMenu} title="Fechar menu de nacegação"><X size={32} weight="fill" /></button>
 
                 <NavLink onClick={closeMenu} title="início" aria-label="ir para a homepage" to="/" end>Início</NavLink>
                 <NavLink onClick={closeMenu} title="campo mourão" aria-label="ver a situação de campo mourão" to="/campo-mourao">Campo Mourão</NavLink>

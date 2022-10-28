@@ -24,6 +24,10 @@ export const ImageContainer = styled.div`
 
     opacity: 0.4;
 
+    img {
+        width: 100%;
+    }
+
     @media (max-width: 412px) {
         width: 100vw;
         left: 50%;
@@ -65,9 +69,4 @@ export const ErrorContainer = styled.main`
     align-items: center;
     gap: 2rem;
 
-    margin: 300px 0;
-
-    @media (max-width: 412px) {
-        margin: 0
-    }
 `

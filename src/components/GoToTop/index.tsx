@@ -4,7 +4,7 @@ import { useRef } from "react";
 
 export function GoToTop() {
     return (
-        <ButtonContainer aria-label='ir para o topo' data-hidden="true" onClick={ScrollToTop}>
+        <ButtonContainer type="button" aria-label='ir para o topo' data-hidden="true" onClick={ScrollToTop}>
             <ArrowUp size={32} weight="bold" />
         </ButtonContainer>
     )

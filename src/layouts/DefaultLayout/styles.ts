@@ -49,6 +49,7 @@ export const BackgroundWrapper = styled.div`
     height: 1400px;
 
     pointer-events: none;
+    z-index: -1;
 
     @media (max-width:412px) {
         height: 600px;

@@ -11,9 +11,9 @@ export function Home() {
                     <h2>Entenda mais sobre tal problema ambiental</h2>
                 </Title>
 
-                <a aria-label="botão para ir à próxima seção do site" onClick={GoToSection}>
+                <button type="button" aria-label="botão para ir à próxima seção do site" onClick={GoToSection}>
                     <ArrowDown size={24} weight="bold" />
-                </a>
+                </button>
             </HomeHeader>
 
             <InformationsContainer>

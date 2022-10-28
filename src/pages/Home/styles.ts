@@ -24,7 +24,7 @@ export const HomeHeader = styled.section`
     flex-direction: column;
     align-items: center;
 
-    a {
+    button {
         line-height: 0;
         background: transparent;
         width: 40px;
