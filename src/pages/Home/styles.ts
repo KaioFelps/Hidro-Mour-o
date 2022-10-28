@@ -194,6 +194,8 @@ export const ExplanationTitle = styled.header`
         font-weight: 700;
         font-size: 2.25rem;
         text-align: left;
+        white-space: pre-wrap;
+        word-break: break-word;
 
         color: ${p => p.theme["white"]};
 
@@ -203,6 +205,9 @@ export const ExplanationTitle = styled.header`
                     0px 12px 26px rgba(8, 7, 44, 0.15),
                     0px 0px 0px rgba(8, 7, 44, 0.15);
 
+        @media (max-width: 412px) {
+            font-size: 2rem;
+        }
     }
 `
 
