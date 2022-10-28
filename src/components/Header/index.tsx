@@ -1,5 +1,5 @@
 import { HeaderContainer, MenuButton, MobileNavigation } from "./styles";
-import logo from "/logo.svg"
+import logo from "/Logo.svg"
 import { NavLink } from "react-router-dom";
 import { List, X } from "phosphor-react"
 
