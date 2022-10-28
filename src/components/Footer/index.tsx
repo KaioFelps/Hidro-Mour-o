@@ -1,6 +1,6 @@
 import { NavLink } from "react-router-dom";
 import { FooterContainer, FooterContent, InformationsRows } from "./style";
-import logo from "/logo.svg"
+import logo from "/Logo.svg"
 import { LinkButton } from "../LinkButton";
 
 export function Footer() {
