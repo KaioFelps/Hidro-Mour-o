@@ -32,12 +32,22 @@ export function Home() {
                 <AsideContainer>
                     <StyledParagraphContainer>
                         <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse in mi ac nisl aliquam mattis in a neque. Cras lacinia, nulla blandit consectetur dictum, mi tortor pharetra mi, eu auctor libero risus sed augue. Proin aliquam dapibus orci. Proin dignissim semper sem sed scelerisque. Donec eu felis mattis, dapibus turpis sit amet, condimentum orci. Mauris hendrerit augue vel libero mattis, quis sollicitudin lacus interdum. Nullam posuere ex sed nisl consequat, eu volutpat augue fringilla. Aenean cursus ex eget porta consectetur. Donec a ex dictum, tincidunt metus sed, accumsan ex.
+                            Você sabe o que é o assoreamento dos rios? Esse grave problema ambiental é muito presente em vários lugares ao redor do mundo, provavelmente na sua cidade também! Consegue advinhar do que se trata?
                         </p>
 
                         <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse in mi ac nisl aliquam mattis in a neque. Cras lacinia, nulla blandit consectetur dictum, mi tortor pharetra mi, eu auctor libero risus sed augue. Proin aliquam dapibus orci. Proin dignissim semper sem sed scelerisque. Donec eu felis mattis, dapibus turpis sit amet, condimentum orci. Mauris hendrerit augue vel libero mattis, quis sollicitudin lacus interdum. Nullam posuere ex sed nisl consequat, eu volutpat augue fringilla. Aenean cursus ex eget porta consectetur. Donec a ex dictum, tincidunt metus sed, accumsan ex.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse in mi ac nisl aliquam mattis in a neque. Cras lacinia, nulla blandit consectetur dictum, mi tortor pharetra mi, eu auctor libero risus sed augue. Proin aliquam dapibus orci. Proin dignissim semper sem sed scelerisque. Donec eu felis mattis, dapibus turpis sit amet, condimentum orci. Mauris hendrerit augue vel libero mattis, quis sollicitudin lacus interdum. Nullam posuere ex sed nisl consequat, eu volutpat augue fringilla. Aenean cursus ex eget porta consectetur. Donec a ex dictum, tincidunt metus sed, accumsan ex.
+                            Tal como é exibido na imagem ao lado, o ciclo do assoreamento de um rio começa quando o ser humano intervém na natureza, retirando as <strong>matas ciliares</strong>, que servem para mais que formar uma paisagem agradável: protegem o rio.
                         </p>
+
+                        <p>
+                            Suas raizes deixam a terra firme, e impedem que, com a água da chuva, a terra se sedimente com maior velocidade e desmorone — a <strong>erosão</strong> — derrubando, então, partículas da terra e rochas dentro do rio. Isso tudo vai acumulando-se no rio e acaba por soterrá-lo: é quando o rio estará assoreado.
+                        </p>
+
+                        <p>
+                            Sendo assim, vemos que a destruição de um rio inteiro pode acontecer pela falta das matas ciliares, aquela bela vegetação que rodeia um rio. Mas afinal, que malefícios essa situação pode trazer à sociedade? Existem meios de impedir que isso aconteça ou até mesmo reverter a situação? <i>Arrasta pra baixo!</i>
+                        </p>
+
+                        <p>Quer conhecer um caso real no município de Campo Mourão? Nesse caso, basta clicar no botão abaixo.</p>
                     </StyledParagraphContainer>
 
                     <LinkButton isBlank={false} hasIcon={true} link="/campo-mourao" icon="arrowUp">Ver um caso real</LinkButton>
@@ -48,19 +58,42 @@ export function Home() {
                 <ExplanationContent>
                     <ExplanationTitle>
                         <i><Drop size={32} weight="bold" /></i>
-
-                        <h3>Quando acontece o assoreamento?</h3>
+                        <h3>Problemas causados pelo assoreamento</h3>
                     </ExplanationTitle>
-
                     <ExplanationParagraphs>
                         <p>
-                            Fusce imperdiet massa sodales suscipit gravida. Sed gravida at felis in pharetra. Integer facilisis arcu dolor, et finibus augue facilisis nec. Phasellus id egestas sem. Donec vestibulum libero sed lorem sollicitudin ullamcorper in vitae nisl. Nunc turpis nulla, hendrerit id metus sit amet, ultricies rutrum nisi. Fusce eget ex at tortor pellentesque varius eget venenatis neque. Etiam auctor felis velit, ut tristique eros hendrerit eget. Nulla urna massa, interdum non magna nec, lobortis aliquet nisi. Integer mollis sem lorem, a viverra eros laoreet a. Curabitur vitae auctor augue, eget condimentum eros. Maecenas vel eros id metus tincidunt imperdiet eget at augue. Donec euismod odio mi. Vestibulum enim arcu, elementum faucibus ante ut, iaculis pulvinar nunc.
+                           Uma vez que o rio é assoreado, o curso deste rio é alterado. A partir disso se derivam vários e vários outros problemas ambientais e sociais, como os listados a seguir:
+
+                           <ul>
+                                <li>
+                                    dificuldade para navegação e migração das vidas aquáticas;
+                                </li>
+                                <li>
+                                    morte de espécies aquáticas deste rio, que não conseguem fazer fotossíntese ou se alimentar;
+                                </li>
+                                <li>
+                                    aumento de possibilidades de enchentes, pois como parte do rio está ocupada por detritos, a água transborda perante a chuvas fortes;
+                                </li>
+                                <li>
+                                    maior força das correntezas;
+                                </li>
+                                <li>
+                                    dificulta a navegação.
+                                </li>
+                           </ul>
+                        </p>
+                    </ExplanationParagraphs>
+
+                    <ExplanationTitle>
+                        <i><Drop size={32} weight="bold" /></i>
+                        <h3>Quais as soluções</h3>
+                    </ExplanationTitle>
+                    <ExplanationParagraphs>
+                        <p>
+                            Para impedir que tantos problemas aconteçam, basta <strong>não desmatar as matas ciliares</strong>, o que impedirá que os detritos cheguem ao rio. Para os rios que já foram afetados, replantar sua mata ciliar pode ajudá-lo a se recuperar.Além disso, conter a erosão e entrada de sedimentos e realizar uma limpeza também são maneiras para restaurá-lo.
                         </p>
                         <p>
-                            Fusce imperdiet massa sodales suscipit gravida. Sed gravida at felis in pharetra. Integer facilisis arcu dolor, et finibus augue facilisis nec. Phasellus id egestas sem. Donec vestibulum libero sed lorem sollicitudin ullamcorper in vitae nisl. Nunc turpis nulla, hendrerit id metus sit amet, ultricies rutrum nisi. Fusce eget ex at tortor pellentesque varius eget venenatis neque. Etiam auctor felis velit, ut tristique eros hendrerit eget. Nulla urna massa, interdum non magna nec, lobortis aliquet nisi. Integer mollis sem lorem, a viverra eros laoreet a. Curabitur vitae auctor augue, eget condimentum eros. Maecenas vel eros id metus tincidunt imperdiet eget at augue. Donec euismod odio mi. Vestibulum enim arcu, elementum faucibus ante ut, iaculis pulvinar nunc.
-                        </p>
-                        <p>
-                            Fusce imperdiet massa sodales suscipit gravida. Sed gravida at felis in pharetra. Integer facilisis arcu dolor, et finibus augue facilisis nec. Phasellus id egestas sem. Donec vestibulum libero sed lorem sollicitudin ullamcorper in vitae nisl. Nunc turpis nulla, hendrerit id metus sit amet, ultricies rutrum nisi. Fusce eget ex at tortor pellentesque varius eget venenatis neque. Etiam auctor felis velit, ut tristique eros hendrerit eget. Nulla urna massa, interdum non magna nec, lobortis aliquet nisi. Integer mollis sem lorem, a viverra eros laoreet a. Curabitur vitae auctor augue, eget condimentum eros. Maecenas vel eros id metus tincidunt imperdiet eget at augue. Donec euismod odio mi. Vestibulum enim arcu, elementum faucibus ante ut, iaculis pulvinar nunc.
+                            Além de tudo isso, é imprescindível mencionar a conscientização da população e das indústrias, pois a falta de conhecimento sobre esse problema leva-os a descartarem lixos domésticos e industriais nos rios, o que, além de poluí-los, contribui para o assoreamento.
                         </p>
                     </ExplanationParagraphs>
                 </ExplanationContent>

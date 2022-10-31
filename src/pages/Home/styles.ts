@@ -122,11 +122,16 @@ export const StyledParagraphContainer = styled.div`
     border-radius: 6px;
     
     p {
-        font-size: 1rem;
+        font-size: 1.125rem;
         font-weight: 400;
         font-family: "Inter", sans-serif;
-        color: ${p => p.theme["white"]};
+        color: ${p => p.theme["gray-300"]};
         margin: 0;
+    }
+
+    strong {
+        font-weight: 700;
+        color: ${p => p.theme["white"]};
     }
 `
 
@@ -164,9 +169,36 @@ export const ExplanationParagraphs = styled.div`
         padding: 0;
 
         color: ${p => p.theme["gray-300"]};
-        font-size: 1rem;
+        font-size: 1.125rem;
         font-weight: 400;
         font-family: "Inter", sans-serif;
+
+        ul {
+            display: flex;
+            flex-direction: column;
+            gap: 8px;
+
+            margin-top: 20px;
+
+            li {
+                display: flex;
+                gap: 8px;
+
+                &::before {
+                    content: "";
+                    display: block;
+
+                    min-width: 5px;
+                    min-height: 5px;
+                    max-width: 5px;
+                    max-height: 5px;
+
+                    border-radius: 999px;
+                    background: ${p => p.theme["blue-300"]};
+                    margin-top: 0.7ex;
+                }
+            }
+        }
     }
 `
 
@@ -192,7 +224,7 @@ export const ExplanationTitle = styled.header`
         font-family: 'Inter', sans-serif;
         font-style: normal;
         font-weight: 700;
-        font-size: 2.25rem;
+        font-size: 2rem;
         text-align: left;
         white-space: pre-wrap;
         word-break: break-word;
