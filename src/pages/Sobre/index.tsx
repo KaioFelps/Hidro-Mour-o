@@ -27,7 +27,7 @@ export function Sobre() {
 
                     <ParagraphContainer>
                         <p>
-                            O site Hidro Mourão surgiu no dia 31 de outubro de 2022, visando disponibilizar informações sobre o assoreamento dos rios, um problema ambiental grave que vem acontecendo há décadas sem ser levado a sério como deveria. Trazemos, por meio desta sítio na web, as principais causas, problemas e soluções acerca deste problema.
+                            O site Hidro Mourão surgiu no dia 31 de outubro de 2022, visando disponibilizar informações sobre o assoreamento dos rios, um problema ambiental grave que vem acontecendo há décadas sem ser levado a sério como deveria. Trazemos, por meio desse website, as principais causas, problemas e soluções acerca deste problema.
                         </p>
                         <p>
                             A ideia desse projeto é oriunda de um trabalho de geografia proposto aos estudantes do segundo ano, turma B, do colégio Antônio Teodoro de Oliveira, pela professora Rosiane Cristina Daniel. O objetivo do trabalho era criar um jeito inovador de entregar uma pesquisa relacionada a um determinado tema disponibilizado. Os alunos responsáveis pelo site são Kaio Felipe, Larissa Mendes, Luana Nayely e Maiara Vitória.
