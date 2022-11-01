@@ -73,6 +73,34 @@ export const ParagraphContainer = styled.div`
         font-family: "Inter", sans-serif;
         font-size: 1rem;
         font-weight: 400;
+            
+        figure {
+            max-width: 50%;
+            margin: auto;
+
+            img {
+                width: 100%;
+            }
+
+            figcaption {
+                font-size: .75rem;
+                color: ${p => p.theme["gray-400"]};
+                text-align: left;
+
+                a {
+                    color: currentColor;
+                }
+            }
+
+            @media (max-width: 1120px) {max-width: 80%}
+            @media (max-width: 412px) {max-width: 100%}
+        }
+
+        a {
+            color: ${p => p.theme["blue-300"]};
+            text-decoration: none;
+            font-weight: 500;
+        }
     }
 
     p:not(:last-child) {
