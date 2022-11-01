@@ -13,7 +13,7 @@ export const ParagraphContainer = styled.div`
     p {
         color: ${p => p.theme["gray-300"]};
         font-family: "Inter", sans-serif;
-        font-size: 1rem;
+        font-size: 1.125rem;
         font-weight: 400;
     }
 

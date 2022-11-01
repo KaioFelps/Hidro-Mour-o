@@ -27,11 +27,13 @@ export function Sobre() {
 
                     <ParagraphContainer>
                         <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse in mi ac nisl aliquam mattis in a neque. Cras lacinia, nulla blandit consectetur dictum, mi tortor pharetra mi, eu auctor libero risus sed augue. Proin aliquam dapibus orci. Proin dignissim semper sem sed scelerisque. Donec eu felis mattis, dapibus turpis sit amet, condimentum orci. Mauris hendrerit augue vel libero mattis, quis sollicitudin lacus interdum. Nullam posuere ex sed nisl consequat, eu volutpat augue fringilla. Aenean cursus ex eget porta consectetur. Donec a ex dictum, tincidunt metus sed, accumsan ex.
+                            O site Hidro Mourão surgiu no dia 31 de outubro de 2022, visando disponibilizar informações sobre o assoreamento dos rios, um problema ambiental grave que vem acontecendo há décadas sem ser levado a sério como deveria. Trazemos, por meio desta sítio na web, as principais causas, problemas e soluções acerca deste problema.
                         </p>
-                        
                         <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse in mi ac nisl aliquam mattis in a neque. Cras lacinia, nulla blandit consectetur dictum, mi tortor pharetra mi, eu auctor libero risus sed augue. Proin aliquam dapibus orci. Proin dignissim semper sem sed scelerisque. Donec eu felis mattis, dapibus turpis sit amet, condimentum orci. Mauris hendrerit augue vel libero mattis, quis sollicitudin lacus interdum. Nullam posuere ex sed nisl consequat, eu volutpat augue fringilla. Aenean cursus ex eget porta consectetur. Donec a ex dictum, tincidunt metus sed, accumsan ex.
+                            A ideia desse projeto é oriunda de um trabalho de geografia proposto aos estudantes do segundo ano, turma B, do colégio Antônio Teodoro de Oliveira, pela professora Rosiane Cristina Daniel. O objetivo do trabalho era criar um jeito inovador de entregar uma pesquisa relacionada a um determinado tema disponibilizado. Os alunos responsáveis pelo site são Kaio Felipe, Larissa Mendes, Luana Nayely e Maiara Vitória.
+                        </p>
+                        <p>
+                            A intenção de construir um site surgiu no dia 20 de outubro, quando o grupo de estudantes supracitado deu início a produção de design e programação do site, estágio que perdurou até o dia 31 do mesmo mês.
                         </p>
                     </ParagraphContainer>
                 </AboutUsContainer>
